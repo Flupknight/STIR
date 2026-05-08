@@ -23,6 +23,7 @@ while runing:
     
     #update screen
     screen.fill((141, 141, 141))
+    all_sprites.update()
     all_sprites.draw(screen)
     pygame.display.flip()
 

@@ -9,4 +9,4 @@ class player(pygame.sprite.Sprite):
         self.rect.center = (400,250)
 
     def draw(self, screen):
-        screen.blit(self.image, self.rect)  
+        screen.blit(self.image, self.rect)
